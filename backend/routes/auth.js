@@ -7,7 +7,6 @@ var jwt = require('jsonwebtoken');
 var fetchuser = require('../middleware/fetchuser');
 
 
-
 const JWT_SECRET = 'ThisIsASecretKey';
 //create a User using: Post "/api/auth/createruser. Doesn't require Auth
 router.post('/createruser',[
